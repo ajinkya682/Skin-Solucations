@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #F97316;
+  --color-primary-hover: #EA6C0A;
+  --color-gold: #D4A853;
+  --color-charcoal: #1C1C1C;
+  --color-body-gray: #4B5563;
+  --color-light-bg: #FAFAF8;
+  --color-card-white: #FFFFFF;
+  --color-beige: #F5F0E8;
+  --color-footer-dark: #111827;
+  --color-border-light: #E5E7EB;
+  --color-whatsapp: #25D366;
+  
+  --font-sans: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FAFAF8;
+  color: #1C1C1C;
+}
+
+/* Custom smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Pulsing animation for WhatsApp button */
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 12px rgba(37, 211, 102, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+.whatsapp-pulse {
+  animation: pulse-ring 2s infinite;
+}
+
+/* Hide scrollbar for clean slider display */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom Gradients for Skin Solutions */
+.hero-gradient {
+  background: linear-gradient(135deg, #FFFFFF 0%, #F5F0E8 100%);
+}
+
+.orange-gradient {
+  background: linear-gradient(135deg, #F97316 0%, #EA6C0A 100%);
+}
