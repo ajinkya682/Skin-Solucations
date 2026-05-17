@@ -244,7 +244,7 @@ const Services = () => {
 
                       {/* CTA */}
                       <Link
-                        to="/contact"
+                        to="/book"
                         className="bg-primary hover:bg-primary-hover text-white font-semibold text-[13px] text-center py-3 rounded-xl transition-all duration-200 cursor-pointer"
                       >
                         Book Consultation
@@ -270,7 +270,7 @@ const Services = () => {
           </div>
           <div className="flex flex-col sm:flex-row items-center gap-3 w-full lg:w-auto">
             <Link
-              to="/contact"
+              to="/book"
               className="w-full sm:w-auto bg-primary hover:bg-primary-hover text-white font-semibold py-3 px-6 rounded-xl text-center text-[14px] transition-colors cursor-pointer"
             >
               Free Consultation

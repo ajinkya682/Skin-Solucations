@@ -107,7 +107,7 @@ const Home = () => {
               {/* Buttons */}
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
                 <Link
-                  to="/contact"
+                  to="/book"
                   className="bg-primary hover:bg-primary-hover text-white font-semibold text-center py-3.5 px-7 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg cursor-pointer"
                 >
                   Book Appointment
@@ -408,7 +408,7 @@ const Home = () => {
                   </p>
                 </div>
                 <Link
-                  to="/contact"
+                  to="/book"
                   className="bg-primary hover:bg-primary-hover text-white text-[13px] font-semibold py-2.5 px-4 rounded-lg flex-shrink-0 w-full sm:w-auto text-center transition-colors cursor-pointer"
                 >
                   Book with Dr. Ajeet
@@ -569,7 +569,7 @@ const Home = () => {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
             <Link
-              to="/contact"
+              to="/book"
               className="w-full sm:w-auto bg-white hover:bg-gray-50 text-primary font-bold py-3.5 px-8 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg cursor-pointer"
             >
               Book Free Consultation

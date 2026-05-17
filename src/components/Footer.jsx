@@ -9,8 +9,8 @@ const Footer = () => {
     { name: 'Our Services', path: '/services' },
     { name: 'Meet Doctors', path: '/doctors' },
     { name: 'Transformations', path: '/before-after' },
+    { name: 'Book Appointment', path: '/book' },
     { name: 'Clinic Gallery', path: '/gallery' },
-    { name: 'Patient Reviews', path: '/testimonials' },
     { name: 'Contact Us', path: '/contact' },
   ];
 

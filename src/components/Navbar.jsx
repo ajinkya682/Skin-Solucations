@@ -81,7 +81,7 @@ const Navbar = () => {
         {/* CTA Button */}
         <div className="hidden xl:block">
           <Link
-            to="/contact"
+            to="/book"
             className="inline-flex items-center justify-center bg-primary hover:bg-primary-hover text-white font-semibold text-[14px] px-5 py-2.5 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md cursor-pointer"
           >
             Book Appointment
@@ -117,7 +117,7 @@ const Navbar = () => {
             </NavLink>
           ))}
           <Link
-            to="/contact"
+            to="/book"
             className="w-full bg-primary hover:bg-primary-hover text-white font-semibold text-center text-[15px] py-3 rounded-lg mt-3 transition-all duration-300 cursor-pointer"
           >
             Book Appointment

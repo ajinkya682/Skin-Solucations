@@ -13,6 +13,7 @@ import BeforeAfter from './pages/BeforeAfter';
 import Gallery from './pages/Gallery';
 import Testimonials from './pages/Testimonials';
 import Contact from './pages/Contact';
+import Book from './pages/Book';
 
 // Scroll to top on page navigation helper
 const ScrollToTop = () => {
@@ -46,6 +47,7 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/testimonials" element={<Testimonials />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/book" element={<Book />} />
             {/* Fallback route back to home */}
             <Route path="*" element={<Home />} />
           </Routes>

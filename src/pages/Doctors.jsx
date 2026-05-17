@@ -122,7 +122,7 @@ const Doctors = () => {
                 {/* Footer buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 pt-4 border-t border-border-light">
                   <Link
-                    to="/contact"
+                    to="/book"
                     className="bg-primary hover:bg-primary-hover text-white text-center font-semibold text-[14px] py-3.5 px-6 rounded-xl flex-grow shadow-md transition-colors cursor-pointer"
                   >
                     Book Appointment
